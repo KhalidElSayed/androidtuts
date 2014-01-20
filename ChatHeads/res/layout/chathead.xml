@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/chathead_linearlayout"
+    android:orientation="horizontal" >
+
+
+        <ImageView
+            android:id="@+id/chathead_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/che" />
+
+        <TextView
+            android:id="@+id/chathead_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:layout_gravity="center_vertical"
+			android:layout_weight="1"
+			android:layout_margin="5dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="5dp"
+			android:paddingTop="5dp"
+			android:paddingBottom="5dp"
+            android:text="Let the world change you and you can change the world."
+            android:maxLines="2"
+            android:background="@drawable/button_gray" />
+
+</LinearLayout>
